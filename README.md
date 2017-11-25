@@ -19,5 +19,4 @@ https://keras.io
 ```
 pip install -U scikit-learn
 ```
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+
