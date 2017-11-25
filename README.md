@@ -36,4 +36,5 @@ As can be seen from the architecture, the first part of the VAD is feature extra
 After training the SAE, the output of the hidden layers was feed into a feed forward neural network which has two hidden layers, each has 16 hidden units. The output of the feedforward neural network has 2 dimension corresponding to the 2 classes need to be classified Voiced and Unvoiced.
 ### Result
 The VAD was implemented on a data set of 1118 segments with the dimension of 72326 (including zero padding). -	The SAE which has the hidden layer with 200 units was trained on 50 iterations with the batch size of 128. After 50 epochs, the loss is __0.2018__. The binary classifier has two hidden layers 16 units each was trained on 50 iterations with the batch size of 16.
+
 ![Confusion matrix](https://github.com/BornToWin/voiceActivityDetector/blob/master/confusionMatrix.png) 
