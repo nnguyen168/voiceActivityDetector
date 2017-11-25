@@ -19,4 +19,8 @@ https://keras.io
 ```
 pip install -U scikit-learn
 ```
+## Running the codes
+### Data preprocessing
+* _Data provided_: speech .wav files along with the speech segments as start times and end times
+* _Spectrogram_: build the spectrogram of the speech based on the Short time Fourier transform. Below is an example of the spectrogram, with the time varies from 0 to 15 seconds and the frequency varies from 0 to 8000 Hz.
 
