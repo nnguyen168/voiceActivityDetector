@@ -38,3 +38,6 @@ After training the SAE, the output of the hidden layers was feed into a feed for
 The VAD was implemented on a data set of 1118 segments with the dimension of 72326 (including zero padding). -	The SAE which has the hidden layer with 200 units was trained on 50 iterations with the batch size of 128. After 50 epochs, the loss is __0.2018__. The binary classifier has two hidden layers 16 units each was trained on 50 iterations with the batch size of 16.
 
 ![Confusion matrix](https://github.com/BornToWin/voiceActivityDetector/blob/master/confusionMatrix.png) 
+As can be seen in the confusion matrix, 106 unvoiced segments were classified correctly and 34 unvoiced segments were classified as voiced segments. 101 voiced segments were classified correctly and 39 were classified as unvoiced segments.
+### Conclusion
+With a False alarm (FA) of 25.2% and the miss probability of 27%, this VAD architecture shows the possibility of using neural networks as a binary classifier but still needs more modification for accurate use
