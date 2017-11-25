@@ -5,7 +5,17 @@ This is a simple project to carry out the voice activity detector (VAD) task usi
 ## Prerequisites
 Python librairies need to be installed before the implementation
 * Numpy
+```
+pip install numpy
+```
 * Scipy
+```
+pip install scipy
+```
 * Matplotlib
 * Keras
+https://keras.io
 * Sklearn
+```
+pip install -U scikit-learn
+```
